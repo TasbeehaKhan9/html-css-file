@@ -1,0 +1,423 @@
+#navbar {
+    background-color:#a77849;
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    align-items: center;
+
+
+
+}
+
+
+#logo {
+    color: black;
+    font-weight: bolder;
+    font-family: "PlaywriteDKLoopet";
+}
+
+@font-face {
+    font-family: "PlaywriteDKLoopet";
+    src: url(../Bebas_Neue,Playwrite_DK_Loopet/Playwrite_DK_Loopet/PlaywriteDKLoopet-VariableFont_wght.ttf)
+}
+
+a {
+    text-decoration: underline;
+    color: white;
+
+}
+
+#login {
+    background-color:#ddab79;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    font-family: bebas neue;
+    text-decoration: dashed underline;
+}
+
+@font-face {
+    font-family: bebas neue;
+    src: url(../Bebas_Neue/BebasNeue-Regular.ttf)
+}
+
+
+
+#big {
+
+    height: 600px;
+    background-image: url(https://www.shutterstock.com/image-photo/elegant-restaurant-dining-scene-featuring-600nw-2541042231.jpg);
+    background-size: cover;
+
+
+}
+
+#ndheading {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    text-shadow: 1px 2px 3px black;
+}
+
+h2 {
+    text-align: center;
+     text-decoration: dashed underline;
+}
+
+#maincontainer {
+
+    /* border: 1px solid black; */
+    display: flex;
+    width: 1700px;
+    justify-content: space-evenly;
+
+
+}
+
+.same1 {
+    background-image: url(https://img.freepik.com/free-photo/american-diner-aesthetics_23-2151854429.jpg?semt=ais_hybrid&w=740);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+
+
+}
+
+
+.same2 {
+    background-image: url(https://www.spar-ni.co.uk/media/lytoji2o/chicken-stack-burger.jpg?anchor=center&mode=crop&heightratio=0.625&width=1920&rnd=133144643544270000);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+
+
+}
+
+.same3 {
+    background-image: url(https://static.wixstatic.com/media/ba2cd3_a341be70a29246f39811a4b488f0cff5~mv2.jpg/v1/fill/w_640,h_362,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ba2cd3_a341be70a29246f39811a4b488f0cff5~mv2.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+
+
+}
+
+.same4 {
+    background-image: url(https://wejdancafe.com/cdn/shop/files/ZINGERCLUB.png?v=1720778233);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+
+
+}
+
+#para1 {
+    position: relative;
+    top: 200px;
+}
+
+h3 {
+    position: relative;
+    top: 200px;
+     text-decoration: underline;
+   cursor: pointer;
+}
+
+#para2 {
+    position: relative;
+    top: 200px;
+}
+
+#para3 {
+    position: relative;
+    top: 200px;
+}
+
+#para4 {
+    position: relative;
+    top: 200px;
+}
+
+
+
+.btn {
+    border-radius: 30px;
+    border: 0px;
+    font-size: 15px;
+    font-weight: 35px;
+    padding: 8px;
+    position: relative;
+    top: 200px;
+    right: 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #ddab79;
+    color: aliceblue;
+
+}
+
+.btn:hover {
+    background-color: #a77849
+}
+
+
+
+.food {
+    background-color: #fffcfcf1;
+
+    height: 600px;
+    display: flex;
+    position: relative;
+    top: 300px;
+
+}
+
+.pic {
+    position: relative;
+    left: 300px;
+}
+
+h4 {
+    position: relative;
+    left: 1000px;
+    bottom: 200px;
+    font-size: xx-large;
+     text-decoration: underline;
+
+}
+
+#uniquepara {
+    position: relative;
+    left: 1000px;
+    bottom: 200px;
+}
+
+.icon {
+    position: relative;
+    left: 1000px;
+    bottom: 200px;
+    width: 170px;
+    height: 60px;
+}
+
+
+
+.update {
+
+    /* border: 1px solid black; */
+    display: flex;
+    width: 1600px;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+    justify-content:space-evenly;
+
+
+}
+
+.review {
+    height: 300px;
+    width:300px ;
+    background-color:#ddab79;
+    position: relative;
+    top: 0px;
+    /* left: 60px; */
+    border-radius: 30px;
+   justify-content: center;
+   display: flex;
+   align-items: center;
+   color: aliceblue;
+   font-weight: bolder;
+   font-size: xx-large;
+    cursor: pointer;
+     text-decoration: underline;
+   
+}
+.review:hover{
+   
+    background-color: #a77849;
+}
+
+
+
+.another {
+    height: 300px;
+    width:300px ;
+    background-color:#ddab79;
+    position: relative;
+    top: 0px;
+    bottom: 200px;
+    /* left: 500px; */
+    border-radius: 30px;
+   justify-content: center;
+   display: flex;
+   align-items: center;
+   color: aliceblue;
+   font-weight: bolder;
+   font-size: xx-large;
+    cursor: pointer;
+     text-decoration:  underline;
+   
+}
+.another:hover{
+   
+    background-color: #a77849;
+}
+
+
+.rating {
+    height: 300px;
+    width:300px ;
+    background-color:#ddab79;
+    position: relative;
+    top: 0px;
+    bottom: 200px;
+    /* left: 500px; */
+    border-radius: 30px;
+   justify-content: center;
+   display: flex;
+   align-items: center;
+   color: aliceblue;
+   font-weight: bolder;
+   font-size: xx-large;
+    cursor: pointer;
+     text-decoration:underline;
+   
+}
+.rating:hover{
+   
+    background-color: #a77849;
+
+}
+
+
+
+.asdf{
+    position: relative;
+  display: flex;
+justify-content: center;
+position: relative;
+top: 2px;
+right: 100px;
+}
+
+
+.ardf{
+    position: relative;
+  display: flex;
+justify-content: center;
+position: relative;
+top: 2px;
+right: 80px;
+}
+
+.footer {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 60px 20px 40px;
+  font-family: sans-serif;
+  position: relative;
+  top:400px ;
+}
+
+.footer-heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.footer-heading h2 {
+  color: #a3d133;
+  font-size: 24px;
+  border-bottom: 2px solid #a3d133;
+  display: inline-block;
+  padding-bottom: 8px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-column {
+  flex: 1 1 200px;
+  margin: 10px;
+}
+
+.footer-column h3 {
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+  color: #ccc;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-column ul li a:hover {
+  color: white;
+}
+
+.store-btn {
+  width: 140px;
+  margin-top: 10px;
+  display: block;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 14px;
+  color: #aaa;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

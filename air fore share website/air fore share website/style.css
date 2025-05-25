@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #F4F4F4;
+}
+
+
+.box1{
+    height: 70px;
+   
+    margin-top: 50px;
+    
+}
+
+.img1{
+    padding-left: 25%;
+}
+ul{
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    list-style-type: none;
+   
+}
+li{
+     display: inline-block;
+     padding: 50px;
+     cursor: pointer;
+     
+ 
+}
+
+li:hover{
+    color: #351eb3;
+}
+
+.button{
+     display: inline-block;
+     padding: 40px;
+     color: #745DFF;
+     cursor: pointer;
+     font-weight: 700;
+     
+}
+
+.box2{
+    height: 500px;
+    background-color: white;
+    width: 60%;
+    margin-left: 20%;
+    margin-top:60px;
+box-shadow: 0 0 10px #b6b1b1;} 
+
+.fa-bars{
+    font-size: xx-large;
+    padding-left: 20px;
+    padding-top: 15px;
+    color: #745DFF;
+}
+
+.fa-copy{
+    font-size:xx-large;
+    color: #898989;
+    position: relative;
+    top: 100px;
+    right: 30px;
+    
+}
+.box3{
+    height:450px ;
+    width: 65px;
+    background-color: #F8F8F8;
+}
+
+
+h1{
+    font-weight: 700;
+    font-size:xx-large;
+    font-family:sans-serif;
+    padding-left: 100px;
+   
+}
+
+.input-button{
+    border: none;
+
+   margin-top: 20px;
+    width: 190px;
+    height: 40px;
+    margin-left: 100px;
+    font-size: x-large;
+    color: #9B9B9B;
+}
+
+.buttonsave{
+    border-color:#9B9B9B ;
+    height: 50px;
+    width: 160px;
+    font-style: italic;
+    margin-left: 1450%;
+    position: relative;
+    top: 280px;
+ color: #4A4A4A;
+}
+
+.buttonsave:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}
+
+p{
+  text-align: center;
+  color:  #817676;
+position: relative;
+top: 100px;
+}
+
+
+
+.fa-square-facebook{
+    font-size: xx-large;
+    color: grey;
+    padding-left: 490px;
+position: relative;
+top: 130px;
+}
+
+.fa-twitter{
+
+     font-size: xx-large;
+    color: grey;
+    padding-left: 80px;
+position: relative;
+top: 130px;
+}
+
+.fa-square-facebook:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.fa-twitter:hover{
+    cursor: pointer;
+    color: black;
+}

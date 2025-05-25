@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 520px;
+    height: auto;
+    min-height: 100px;
+    margin: 100px auto;
+    background-color: #0000;
+    border-radius: 5px;
+    border: 1px solid #0ef;
+    box-shadow: inset 0 0 0.5em 0  #0ef, 0 0 0.5em 0 #0ef ;
+}
+h1{
+    font-size: 26px;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 0px;
+    box-shadow: 0px 2px #bababa;
+    font-size: 34px;
+    color:#0ef;
+
+ }
+
+ .block{
+    width: 135px;
+    padding: 5px 20px;
+    margin-left: 20px;
+    display: inline-block;
+ }
+
+ .title{
+    font-size: 20px;
+    text-align: left;
+    font-weight: normal;
+    line-height: 0.5;
+    letter-spacing: 0.5px;
+    word-spacing: 2.7px;
+    color: #0ef;
+
+ }
+
+
+ input[type=text]{
+    width: 140px;
+    margin: auto;
+    outline: none;
+    min-height: 50px;
+    border: 2px solid #333;
+    padding: 12px;
+    background-color: #111;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 17px;
+
+ }
+
+input[type=button] {
+    width: 120px;
+    margin-left: 40%;
+    margin-top: 40px;
+    font-size: 1.5em;
+    cursor: pointer;
+    background-color: #0ef;
+    color: #111;
+    border: 1px solid #0ef;
+    padding: 0.5em 1em;
+    border-radius: 0.25em;
+    box-shadow: inset 0 0 0.5em 0 #0ef, 0 0 0.5em 0 #0ef;
+}
+
+input[type=button]:hover {
+    color: #fff;
+    transition-property: box-shadow;
+    transition-duration: .5s;
+    box-shadow: inset 0 0 0.5em 0 #0ef, 0 0 0.5em 0 #0ef;
+}
+
+ 
+
+ #age{
+    padding: 20px;
+    overflow: hidden;
+    font-size: 23px;
+    font-weight: normal;
+    line-height: 1.5;
+    word-spacing: 2.7px;
+    color: #fff;
+
+ }
+
+  
+
+
+
+
+

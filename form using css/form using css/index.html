@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Complete Multi-Step Form</title>
+
+    
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+
+  <div class="form-container">
+    <!-- Step 1 -->
+    <h2>Step 1: Your details</h2>
+    <div class="form-row">
+      <label for="name" class="font" >Name</label>
+      <input id="name" type="text" placeholder="First and last name">
+    </div>
+    <div class="form-row">
+      <label for="email" class="font">Email</label>
+      <input id="email" type="email" placeholder="example@domain.com">
+    </div>
+    <div class="form-row">
+      <label for="phone" class="font">Phone</label>
+      <input id="phone" type="tel" placeholder="Eg. +447500000000">
+    </div>
+
+    <!-- Step 2 -->
+    <h2 style="margin-top:32px;">Step 2: Delivery address</h2>
+    <div class="form-row">
+      <label for="address" class="font">Address</label>
+      <textarea id="address" rows="3" placeholder="Street address, building, etc."></textarea>
+    </div>
+    <div class="form-row">
+      <label for="postcode" class="font">Post code</label>
+      <input id="postcode" type="text" placeholder="Postal / ZIP code">
+    </div>
+    <div class="form-row">
+      <label for="country" class="font">Country</label>
+      <input id="country" type="text" placeholder="Country name">
+    </div>
+
+    <!-- Step 3 -->
+    <h2 style="margin-top:32px;" >Step 3: Card details</h2>
+    <fieldset class="card-row">
+      <legend class="font">Card type</legend>
+      <label>
+        <input type="radio" name="card-type" value="visa">
+        <img src="https://img.icons8.com/color/20/000000/visa.png" alt="Visa"> VISA
+      </label>
+      <label>
+        <input type="radio" name="card-type" value="amex">
+        <img src="https://img.icons8.com/color/20/000000/amex.png" alt="AmEx"> AmEx
+      </label>
+      <label>
+        <input type="radio" name="card-type" value="mastercard">
+        <img src="https://img.icons8.com/color/20/000000/mastercard.png" alt="Mastercard"> Mastercard
+      </label>
+    </fieldset>
+    <div class="form-row">
+      <label for="card-number" class="font">Card number</label>
+      <input id="card-number" type="text" placeholder="1234 5678 9012 3456">
+    </div>
+    <div class="form-row">
+      <label for="cvc" class="font">Security code</label>
+      <input id="cvc" type="text" placeholder="CVC">
+    </div>
+    <div class="form-row">
+      <label for="card-name" class="font">Name on card</label>
+      <input id="card-name" type="text" placeholder="Exact name as on the card">
+    </div>
+
+    <!-- Submit -->
+    <div class="submit-row">
+      <button type="submit">BUY IT!</button>
+    </div>
+  </div>
+
+</body>
+</html>

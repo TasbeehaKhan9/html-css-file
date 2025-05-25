@@ -1,0 +1,149 @@
+/* Reset & box-sizing */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Center in viewport */
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background: #f5f5f5;
+      font-family: Arial, sans-serif;
+      padding: 16px;
+    }
+
+    .font{
+        font-family: serif;
+        font-size: larger;
+        font-weight: 600;
+    }
+
+    /* Panel */
+    .form-container {
+      width: 100%;
+      max-width: 600px;
+      background: #8ea320;
+      border-radius: 8px;
+      padding: 24px;
+      color: #333333;
+    }
+    .form-container h2 {
+      margin-bottom: 16px;
+      font-size: 1.4rem;
+      font-weight: normal;
+    }
+
+    /* Generic row */
+    .form-row {
+      display: flex;
+      align-items: center;
+      background: rgba(255,255,255,0.2);
+      border: 2px solid rgba(255,255,255,0.8);
+      border-radius: 6px;
+      padding: 12px 16px;
+      margin-bottom: 16px;
+    }
+    .form-row:last-of-type { margin-bottom: 0; }
+    .form-row label {
+      flex: 0 0 30%;
+      font-size: 1rem;
+    }
+    .form-row input,
+    .form-row textarea {
+      flex: 1;
+      padding: 8px 12px;
+      border: none;
+      border-radius: 6px;
+      background: #fff;
+      font-size: 0.95rem;
+    }
+    .form-row input::placeholder,
+    .form-row textarea::placeholder {
+      font-style: italic;
+      color: #999;
+    }
+
+    /* Card-type fieldset */
+    fieldset.card-row {
+      display: flex;
+      align-items: center;
+      background: rgba(255,255,255,0.2);
+      border: 2px solid rgba(255,255,255,0.8);
+      border-radius: 6px;
+      padding: 12px 16px;
+      margin-bottom: 16px;
+    }
+    fieldset.card-row legend {
+      flex: 0 0 30%;
+      font-size: 1rem;
+      margin-right: 16px;
+    }
+    fieldset.card-row label {
+      display: flex;
+      align-items: center;
+      margin-right: 24px;
+      font-size: 0.95rem;
+      cursor: pointer;
+    }
+    fieldset.card-row input {
+      margin-right: 6px;
+    }
+    fieldset.card-row img {
+      height: 24px;
+      margin-right: 6px;
+    }
+
+    /* Submit */
+    .submit-row {
+      text-align: center;
+      margin-top: 8px;
+    }
+    .submit-row button {
+      background: #304000;
+      color: #fff;
+      border: none;
+      border-radius: 20px;
+      padding: 12px 32px;
+      font-size: 1rem;
+      cursor: pointer;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+      /* transition: background 0.2s; */
+    }
+    .submit-row button:hover {
+      background: #243500;
+    }
+
+     button{
+        width:200px;
+    }
+
+    /* Responsive ≤600px */
+    @media (max-width: 600px) {
+      .form-row,
+      fieldset.card-row {
+        flex-direction: column;
+        align-items: stretch;
+      }
+      .form-row label,
+      fieldset.card-row legend,
+      fieldset.card-row label {
+        margin-bottom: 8px;
+      }
+      .form-row input,
+      .form-row textarea {
+        width: 100%;
+      }
+      fieldset.card-row {
+        padding: 12px;
+      }
+      fieldset.card-row label {
+        margin-right: 0;
+      }
+    }
+
+   
+
